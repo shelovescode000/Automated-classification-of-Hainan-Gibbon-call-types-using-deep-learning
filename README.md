@@ -1,29 +1,29 @@
 # Gibbon Social Group Classifier
-In this study we describe the development of a classifier usin deep learning for discriminating between Hainan gibbon (Nomascus hainanus) social groups using their calls. 
+In this study we describe the development of a classifier using deep learning for discriminating between Hainan gibbon (Nomascus hainanus) social groups using their calls. 
 
-##Requirements
+#Requirements
 Install all requirements using pip install 
-Numpy
-Scipy
-Librosa
-Pandas
-Tensorflow
-Sklearn
-Pickle
-Matplotlib
+*Numpy
+*Scipy
+*Librosa
+*Pandas
+*Tensorflow
+*Sklearn
+*Pickle
+*Matplotlib
 
-##Overview
+#Overview
 <img src="Hainan Gibbon Code/Summary of Methodology.png">
 
-##Pipeline 
+#Pipeline 
 <img src="Hainan Gibbon Code/Pipeline.png">
 
-##Additional Files
-CNN_Network.py - view/edit the CNN network
-Train_Helper.py - all functions which are used during training
-Predict_Helper.py - all functions which are used for prediction
-Augmentation.py - all functions which are used to augment the data
-Extract_Audio_Helper.py - all functions which are used to extract and preprocess the audio files
+#Additional Files
+*CNN_Network.py - view/edit the CNN network
+*Train_Helper_Social_Group.py - all functions which are used during training
+*PredictHelper.py - all functions which are used for prediction
+*Augmentation.py - all functions which are used to augment the data
+*Extract_Audio_Helper.py - all functions which are used to extract and preprocess the audio files
 
-##Data 
+#Data 
 The training, validation, and testing sets are found in: https://zenodo.org/record/3991714#.YQbtDWgzbIU
