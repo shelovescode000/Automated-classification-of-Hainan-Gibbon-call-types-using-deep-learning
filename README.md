@@ -13,7 +13,7 @@ Install all requirements using pip install
 - Matplotlib
 
 ## Overview
-<img src="Hainan Gibbon Code/Summary of Methodology.png">
+<img src="Hainan Gibbon Code/Summary of Methodology.PNG">
 
 ## Pipeline
 <img src="Hainan Gibbon Code/Pipeline.png">
